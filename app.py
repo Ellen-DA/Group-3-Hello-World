@@ -3,5 +3,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    name = input("Name: ").title()
+    name = "Ellen"
     return "Hello, " + name
